@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+.item{
+  border: 2px solid black;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: rgb(180, 255, 230);
+  box-shadow: 2px 2px 6px black;
+  border-radius: 10px;
+}
+
+.row{
+  display: flex;
+  border-radius: 10px;
+  flex-direction: row;
+  background-color: rgb(170, 62, 143);
+  border: 2px solid black;
+
+
+
+}
